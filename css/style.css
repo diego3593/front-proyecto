@@ -1,0 +1,314 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --primaryColor: #8B48BF;
+    --secondaryColor: #1E1E26;
+    --thirdColor: #FFFFFF;
+    --articulos:#FAFAFA;
+    --copyright: #8C8C94;
+}
+
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+/* header */
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0px 0px 0px;
+}
+nav ul{
+    margin: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.bContacto{
+    background-color: var(--primaryColor);
+    color: var(--thirdColor);
+    border: none;
+    padding: 12.5px 41px;
+    border-radius: 50px;
+    font-size: 13.18px;
+}
+/* primera seccion */
+
+#hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin:  6% 10%;
+}
+#hero div{
+    width: 50%;
+    min-width: 480px;
+}
+#hero div img{
+    width: 100%;
+    min-width: 480px;
+}
+#informacionPrincipal{
+    display: flex;
+    flex-direction: column;
+    padding: 4% 0% 2% 0%;
+    height: 100%;
+    align-items: flex-end;
+    text-align: right;
+}
+#informacionPrincipal h1{
+    font-size: 50px;
+    padding: 0px 0px 3px 65px;
+}
+#hero div p{
+    font-weight: 500;
+    font-size: 16.56px;
+    margin: 28px 0px;
+}
+
+/* segunda seccion */
+#inicioDeArticulos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: var(--primaryColor);
+    color: var(--thirdColor);
+    padding: 3% 13%;
+}
+
+#inicioDeArticulos div{
+    width: 50%;
+    min-width: 480px;
+}
+#inicioDeArticulos div h2{
+    font-weight: 700;
+    font-size: 36px;
+}
+
+/* tercera seccion */
+#metasDeEmpresa{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0% 10%;
+    background-color: var(--articulos);
+    
+}
+#metasDeEmpresa article{
+    display: flex;
+    margin: 5% 1% 1% 0% ;
+    width: 48%;
+    min-width: 480px;
+}
+.tituloDeValores{
+    padding: 10px 0px;
+    font-weight: bold
+}
+.numeracion{
+    background-color: #8B48BF;
+    padding: 10px 0px;
+    width: 70px;
+    text-align: center;
+    border-radius: 50px;
+    color: var(--thirdColor);
+    margin: 0px 18px;
+}
+
+/* cuarta seccion */
+#noticias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 4% 7%;
+}
+#noticias h2{
+    margin: 40px 0px 0px 10px;
+    font-weight: 700;
+    font-size: 39.21px;
+}
+#noticias div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#noticias div article{
+    width: 33.3%;
+    min-width: 300px;
+}
+#noticias div article img{
+    position: relative;
+    bottom: -40px;
+}
+#noticias div article h4{
+    background-color: var(--articulos);
+    padding: 50px 5px 5px 5px;
+}
+#noticias div article p{
+    background-color: var(--articulos);
+    padding: 12px 5px 5px 5px;
+}
+#noticias button{
+    width: 124px;
+    height: 44px;
+    border-radius: 50px;
+    border: none;
+    margin: 4% 0% 10%;
+    background-color: rgba( 139, 72, 191, 0.7);
+    color: var(--thirdColor);
+    font-size: 13.18px;
+    font-weight: bold;
+}
+/* Footer */
+#pieSuperior{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 10%;
+    background-color: var(--primaryColor);
+    color: var(--thirdColor);
+}
+#pieSuperior button{
+
+    width: 134px;
+    height: 44px;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--thirdColor);
+    color: var(--primaryColor);
+}
+section h3{
+    width: 450px;
+    font-weight: 700;
+    font-size: 35px;
+    margin: 5px 0px;
+}
+#pieInferior{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap-reverse;
+    background-color: var(--secondaryColor);
+    padding: 2% 10%;
+    color: var(--thirdColor);
+    font-weight: lighter;
+}
+#redes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+i{
+    font-size: 27px;
+    margin: 7px;
+}
+#listas{
+    display: flex;
+}
+section div ul li{
+    margin: 12px 50px;
+
+}
+input{
+    margin: 15px;
+    width: 201px;
+    height: 44px;
+    border-radius: 44px;
+    border: none;
+}
+#botonInbox{
+    width: 63px;
+    height: 42px;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--primaryColor);
+    color: var(--thirdColor);
+}
+input::placeholder{
+    padding: 0px 15px;
+}
+footer p{
+    width: 100vw;
+    background-color: var(--secondaryColor);
+    color: var(--copyright);
+    text-align: right;
+    padding: 0px 50px 15px 0px;
+}
+@media (max-width:480px){
+    nav button{
+        display: none;
+    }
+    nav ul{
+        display: none;
+    }
+    header nav::after{
+        content: '\f0c9';
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        font-size: 2rem;
+    }
+    #inicioDeArticulos{
+        padding: 50px 0px;
+        gap: 30px;
+    }
+    #inicioDeArticulos div{
+        min-width: 380px;
+    }
+    #metasDeEmpresa{
+        padding: 20px;
+    }
+    .numeracion{
+        position: relative;
+        left: 35px;
+    }
+    .tituloDeValores{
+        padding: 10px 35px;
+        background-color: rgba( 139, 72, 191, 0.3);
+    }
+    .parrafos{
+        padding: 20px 0px;
+        position: relative;
+        left: -40px;
+    }
+
+    .desaparecen{
+        display: none;
+    }
+    #noticias{
+        margin: 0px;
+    }
+    #noticias div article{
+        width: 100%;
+    }
+    #noticias div article p{
+        padding: 12px 15px 15px 15px;
+    }
+    #pieSuperior{
+        justify-content: center;
+    }
+    #pieInferior{
+        justify-content: center;
+    }
+    #redes{
+        flex-direction: column-reverse;
+        align-items:center;
+    }
+    #iconos{
+        padding: 20px 0px;
+        width: 100vw;
+        display: flex;
+        justify-content: space-around;
+    }
+    footer p{
+        min-width: 400px;
+        text-align: center;
+        padding: 10px;
+    }
+}
